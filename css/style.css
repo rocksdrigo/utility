@@ -1,0 +1,93 @@
+body {
+	background-color: #292929;
+	margin: 1%;
+	font-family: 'Gentium Book Basic', Georgia, serif;
+	line-height: 1.5;
+	font-weight: 400;
+	color: #F3F6F5;
+}
+
+h1 {
+	color: #F3F6F5;
+	text-align: center;
+	font-size: 400%;
+ 	padding-top: .8%; 
+ 	text-shadow:1px 2px 1px #B7245C;
+ 	font-weight: 400;
+}
+
+nav ul {
+  font-family: 'Gentium Book Basic', Georgia, serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1F1F1F;
+}
+
+nav li {
+  align-items: center; 
+  display: flex;
+  float: left;
+}
+
+nav li a {
+  display: flex;
+  color: #F3F6F5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #111;
+  transition: .4s;
+
+}
+
+h2 {
+	font-size: 100%;
+	text-align: center;
+	color: #F3F6F5;
+	text-shadow:1px 2px 1px #2EC4B6;
+	font-weight: 400;
+}
+
+h3 {
+ font-size: 200%;
+ font-weight: 400;
+
+}
+
+.wrap{
+	width: 70%;
+	padding: 0 5%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+	max-width: 42em;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+li a {
+	text-decoration: none;
+	color: #B7245C;
+	transition: .6s;
+}
+.content li a:hover {
+	text-decoration: underline;
+	color: #E7F06A;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  padding: 1%;
+  background-color: #1F1F1F;
+  color: #F3F6F5;
+  opacity: .6;
+  transition: 2s;
+}
+footer:hover {
+	opacity: 1;
+}
